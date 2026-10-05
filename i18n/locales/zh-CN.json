@@ -33,7 +33,10 @@
         "heading": "发票详情",
         "invoiceLogo": {
           "label": "发票Logo",
-          "placeholder": "点击上传图片"
+          "placeholder": "点击上传图片",
+          "hint": "选择Rooftrans标志或上传您自己的。",
+          "uploadTile": "上传自己的",
+          "remove": "移除标志"
         },
         "invoiceNumber": "发票编号",
         "issuedDate": "开票日期",

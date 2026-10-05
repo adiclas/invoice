@@ -1350,11 +1350,11 @@ test.describe("invoice builder", () => {
         await page.getByRole("button", { name: /^senders/i }).click();
         await page
             .getByRole("dialog")
-            .getByRole("button", { name: /^John Doe/ })
+            .getByRole("button", { name: /^Adil Moutawakil/ })
             .click();
 
         await expect(page.locator('input[name="sender.name"]')).toHaveValue(
-            "John Doe"
+            "Adil Moutawakil"
         );
         await expect(page.locator('input[name="sender.city"]')).toHaveValue(
             "Anytown"
@@ -1370,7 +1370,7 @@ test.describe("invoice builder", () => {
         const clients =
             (await readStored<{ name: string }[]>(page, "invoify:clients")) ??
             [];
-        expect(senders.map((p) => p.name)).toEqual(["John Doe"]);
+        expect(senders.map((p) => p.name)).toEqual(["Adil Moutawakil"]);
         expect(clients).toEqual([]);
 
         expect(problems, `page problems:\n${problems.join("\n")}`).toEqual([]);
@@ -1607,7 +1607,7 @@ test.describe("invoice builder", () => {
 
 const SAMPLE_INVOICE = {
     sender: {
-        name: "John Doe",
+        name: "Adil Moutawakil",
         address: "123 Main St",
         zipCode: "12345",
         city: "Anytown",
@@ -1639,7 +1639,7 @@ const SAMPLE_INVOICE = {
         shippingDetails: { cost: 5, costType: "percentage" },
         paymentInformation: {
             bankName: "Bank Inc.",
-            accountName: "John Doe",
+            accountName: "Adil Moutawakil",
             accountNumber: "445566998877",
         },
         additionalNotes: "Thank you for your business",

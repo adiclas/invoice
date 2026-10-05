@@ -48,7 +48,7 @@ export function buildJsonLd(locale: string) {
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "@id": `${BASE_URL}/#app`,
-        name: "Invoify",
+        name: "Rooftrans",
         url,
         applicationCategory: "BusinessApplication",
         operatingSystem: "Any",

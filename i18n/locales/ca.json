@@ -33,7 +33,10 @@
         "heading": "Detalls de factura",
         "invoiceLogo": {
           "label": "Logo de factura",
-          "placeholder": "Click para pujar una imagen"
+          "placeholder": "Click para pujar una imagen",
+          "hint": "Tria un logo Rooftrans o puja el teu.",
+          "uploadTile": "Puja el teu",
+          "remove": "Treure logo"
         },
         "invoiceNumber": "Número de factura",
         "issuedDate": "Data d’emisión",
@@ -134,7 +137,7 @@
     "signatureAlt": "Signatura de {name}"
   },
   "meta": {
-    "title": "Generador de factures gratuït | Invoify",
+    "title": "Generador de factures gratuït | Rooftrans",
     "description": "Crea una factura professional en minuts. Tretze plantilles, els teus colors i el teu logotip, i un PDF per descarregar o enviar per correu. Gratuït i sense registre.",
     "ogTitle": "Generador de factures gratuït",
     "ogDescription": "Tretze plantilles. Omple i descarrega el PDF. Sense compte."

@@ -33,7 +33,10 @@
         "heading": "Fatura Detayları",
         "invoiceLogo": {
           "label": "Fatura Logosu",
-          "placeholder": "Resim yüklemek için tıklayın"
+          "placeholder": "Resim yüklemek için tıklayın",
+          "hint": "Bir Rooftrans logosu seçin veya kendi logonuzu yükleyin.",
+          "uploadTile": "Kendi logonuzu yükleyin",
+          "remove": "Logoyu kaldır"
         },
         "invoiceNumber": "Fatura Numarası",
         "issuedDate": "Düzenlenme Tarihi",
@@ -134,7 +137,7 @@
     "signatureAlt": "{name} imzası"
   },
   "meta": {
-    "title": "Ücretsiz Fatura Oluşturucu | Invoify",
+    "title": "Ücretsiz Fatura Oluşturucu | Rooftrans",
     "description": "Dakikalar içinde profesyonel bir fatura hazırlayın. On üç şablon, kendi renkleriniz ve logonuz, indirebileceğiniz veya e-postayla gönderebileceğiniz bir PDF. Ücretsiz, üyelik gerekmez.",
     "ogTitle": "Ücretsiz fatura oluşturucu",
     "ogDescription": "On üç şablon. Doldurun, PDF'i indirin. Üyelik yok."

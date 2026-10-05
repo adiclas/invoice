@@ -33,7 +33,10 @@
         "heading": "請求書の詳細",
         "invoiceLogo": {
           "label": "請求書のロゴ",
-          "placeholder": "クリックして画像をアップロード"
+          "placeholder": "クリックして画像をアップロード",
+          "hint": "Rooftransのロゴを選ぶか、独自のをアップロードしてください。",
+          "uploadTile": "独自のをアップロード",
+          "remove": "ロゴを削除"
         },
         "invoiceNumber": "請求書番号",
         "issuedDate": "発行日",

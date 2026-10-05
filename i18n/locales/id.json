@@ -33,7 +33,10 @@
         "heading": "Detail Faktur",
         "invoiceLogo": {
           "label": "Logo Faktur",
-          "placeholder": "Klik untuk unggah gambar"
+          "placeholder": "Klik untuk unggah gambar",
+          "hint": "Pilih logo Rooftrans atau unggah milik Anda.",
+          "uploadTile": "Unggah milik Anda",
+          "remove": "Hapus logo"
         },
         "invoiceNumber": "Nomor Faktur",
         "issuedDate": "Tanggal Terbit",
@@ -134,7 +137,7 @@
     "signatureAlt": "Tanda tangan {name}"
   },
   "meta": {
-    "title": "Pembuat Faktur Gratis | Invoify",
+    "title": "Pembuat Faktur Gratis | Rooftrans",
     "description": "Buat faktur profesional dalam hitungan menit. Tiga belas templat, warna dan logo Anda sendiri, serta PDF yang bisa diunduh atau dikirim lewat email. Gratis, tanpa akun.",
     "ogTitle": "Pembuat faktur gratis",
     "ogDescription": "Tiga belas templat. Isi, unduh PDF-nya. Tanpa akun."

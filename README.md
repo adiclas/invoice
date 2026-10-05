@@ -1,14 +1,14 @@
-[![Discord](https://img.shields.io/badge/Discord-%40Invoify-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/uhXKHbVKHZ)
+[![Discord](https://img.shields.io/badge/Discord-%40Rooftrans-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/uhXKHbVKHZ)
 [![CI](https://github.com/al1abb/invoify/actions/workflows/ci.yml/badge.svg)](https://github.com/al1abb/invoify/actions/workflows/ci.yml)
-# Invoify
+# Rooftrans
 
-Invoify is a free, web-based invoice generator built with Next.js, TypeScript, React and the shadcn/ui library. Fill in a form, pick a template, and get a real PDF. No account, no subscription, and nothing about your customers stored on a server.
+Rooftrans is a free, web-based invoice generator built with Next.js, TypeScript, React and the shadcn/ui library. Fill in a form, pick a template, and get a real PDF. No account, no subscription, and nothing about your customers stored on a server.
 
-![Invoify Website image](https://github.com/user-attachments/assets/7b7076db-736e-4a82-b61b-cec3c0ff5695)
+![Rooftrans Website image](https://github.com/user-attachments/assets/7b7076db-736e-4a82-b61b-cec3c0ff5695)
 
 ## Table of Contents
 
-- [Invoify](#invoify)
+- [Rooftrans](#rooftrans)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Your data stays in your browser](#your-data-stays-in-your-browser)
@@ -44,7 +44,7 @@ A walkthrough of what each part does lives on the [guide page](https://invoify.v
 
 ## Your data stays in your browser
 
-Invoify has no accounts and no database. Everything you enter (the address book, the autosave draft and your saved invoices) is stored locally, and it is encrypted at rest with AES-GCM 256 under a key the browser generates as non-extractable, so the key cannot be copied out of the origin.
+Rooftrans has no accounts and no database. Everything you enter (the address book, the autosave draft and your saved invoices) is stored locally, and it is encrypted at rest with AES-GCM 256 under a key the browser generates as non-extractable, so the key cannot be copied out of the origin.
 
 Two things worth being clear about:
 
@@ -83,11 +83,11 @@ Right-to-left layouts are supported for Arabic and Hebrew. Some PDF translations
 > [!NOTE]
 > [Issue #11](https://github.com/al1abb/invoify/issues/11) reports PDF generation problems in Mozilla Firefox and is still open. The automated tests run against Chromium only, so the current state in Firefox is untested.
 
-Visit the [live demo](https://invoify.vercel.app) to see Invoify in action.
+Visit the [live demo](https://invoify.vercel.app) to see Rooftrans in action.
 
 ## Getting Started
 
-Follow these instructions to get Invoify up and running on your local machine.
+Follow these instructions to get Rooftrans up and running on your local machine.
 
 ### Prerequisites
 

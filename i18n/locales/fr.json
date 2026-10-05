@@ -33,7 +33,10 @@
         "heading": "Détails de la facture",
         "invoiceLogo": {
           "label": "Logo de la facture",
-          "placeholder": "Cliquez pour télécharger une image"
+          "placeholder": "Cliquez pour télécharger une image",
+          "hint": "Choisissez un logo Rooftrans ou téléversez le vôtre.",
+          "uploadTile": "Téléverser le vôtre",
+          "remove": "Supprimer le logo"
         },
         "invoiceNumber": "Numéro de facture",
         "issuedDate": "Date d'émission",
@@ -134,7 +137,7 @@
     "signatureAlt": "Signature de {name}"
   },
   "meta": {
-    "title": "Générateur de factures gratuit | Invoify",
+    "title": "Générateur de factures gratuit | Rooftrans",
     "description": "Créez une facture professionnelle en quelques minutes. Treize modèles, vos couleurs et votre logo, un PDF à télécharger ou à envoyer. Gratuit, sans inscription.",
     "ogTitle": "Générateur de factures gratuit",
     "ogDescription": "Treize modèles. Remplissez, téléchargez le PDF. Sans compte."

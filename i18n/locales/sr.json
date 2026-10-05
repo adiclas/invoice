@@ -33,7 +33,10 @@
         "heading": "Detalji fakture",
         "invoiceLogo": {
           "label": "Logo fakture",
-          "placeholder": "Kliknite da biste otpremili sliku"
+          "placeholder": "Kliknite da biste otpremili sliku",
+          "hint": "Izaberite Rooftrans logo ili otpremite svoj.",
+          "uploadTile": "Otpremite svoj",
+          "remove": "Ukloni logo"
         },
         "invoiceNumber": "Broj fakture",
         "issuedDate": "Datum izdavanja",

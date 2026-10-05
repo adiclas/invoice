@@ -52,10 +52,10 @@ export async function generateMetadata(props: {
     const messages = await getMessages(locale);
     const meta = (messages as Record<string, Record<string, string>>)?.meta ?? {};
 
-    const title = meta.title ?? "Invoify | Free Invoice Generator";
+    const title = meta.title ?? "Rooftrans | Free Invoice Generator";
     const description =
         meta.description ??
-        "Create invoices effortlessly with Invoify, the free invoice generator. Try it now!";
+        "Create invoices effortlessly with Rooftrans, the free invoice generator. Try it now!";
 
     return {
         // Resolves every relative URL below, including the generated OG image.
@@ -70,7 +70,7 @@ export async function generateMetadata(props: {
         },
         openGraph: {
             type: "website",
-            siteName: "Invoify",
+            siteName: "Rooftrans",
             title,
             description,
             url: localePath(locale),
@@ -172,7 +172,7 @@ export default async function LocaleLayout(props: {
                             data-cfasync="false"
                             data-id="aliabb"
                             data-description="Support me on Buy me a coffee!"
-                            data-message="Thank you for using Invoify"
+                            data-message="Thank you for using Rooftrans"
                             data-color="#5F7FFF"
                             data-position="Right"
                             data-x_margin="18"

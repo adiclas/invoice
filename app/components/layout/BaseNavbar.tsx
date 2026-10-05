@@ -7,7 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // Assets
-import Logo from "@/public/assets/img/invoify-logo.svg";
+import Logo from "@/public/assets/img/Rooftrans-Logo-Directions-1.png";
 
 // ShadCn
 import {
@@ -47,7 +47,7 @@ const BaseNavbar = () => {
                 <Link href="/" className="flex shrink-0 items-center">
                     <Image
                         src={Logo}
-                        alt="Invoify Logo"
+                        alt="Rooftrans Logo"
                         width={887}
                         height={294}
                         loading="eager"

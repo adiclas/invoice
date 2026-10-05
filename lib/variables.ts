@@ -260,7 +260,7 @@ export const FORM_DEFAULT_VALUES = {
  */
 export const FORM_FILL_VALUES = {
   sender: {
-    name: "John Doe",
+    name: "Adil Moutawakil",
     address: "123 Main St",
     zipCode: "12345",
     city: "Anytown",
@@ -322,7 +322,7 @@ export const FORM_FILL_VALUES = {
     },
     paymentInformation: {
       bankName: "Bank Inc.",
-      accountName: "John Doe",
+      accountName: "Adil Moutawakil",
       accountNumber: "445566998877",
     },
     additionalNotes: "Thank you for your business",

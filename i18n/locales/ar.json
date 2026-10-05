@@ -33,7 +33,10 @@
         "heading": "تفاصيل الفاتورة",
         "invoiceLogo": {
           "label": "شعار الفاتورة",
-          "placeholder": "اضغط لتحميل الصورة"
+          "placeholder": "اضغط لتحميل الصورة",
+          "hint": "اختر شعار Rooftrans أو ارفع شعارك الخاص.",
+          "uploadTile": "ارفع شعارك",
+          "remove": "إزالة الشعار"
         },
         "invoiceNumber": "رقم الفاتورة",
         "issuedDate": "تاريخ الإصدار",

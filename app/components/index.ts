@@ -54,6 +54,7 @@ import DatePickerFormField from "./reusables/form-fields/DatePickerFormField";
 import FormFile from "./reusables/form-fields/FormFile";
 import ChargeInput from "./reusables/form-fields/ChargeInput";
 import FormCustomInput from "./reusables/form-fields/FormCustomInput";
+import LogoPicker from "./reusables/form-fields/LogoPicker";
 
 import BaseButton from "./reusables/BaseButton";
 import ThemeSwitcher from "./reusables/ThemeSwitcher";
@@ -143,6 +144,7 @@ export {
     FormFile,
     ChargeInput,
     FormCustomInput,
+    LogoPicker,
     BaseButton,
     ThemeSwitcher,
     LanguageSelector,

@@ -5,7 +5,7 @@ import {
     CurrencySelector,
     DatePickerFormField,
     FormInput,
-    FormFile,
+    LogoPicker,
     Subheading,
     TemplateGallery,
 } from "@/app/components";
@@ -36,13 +36,22 @@ const InvoiceDetails = () => {
 
             <div className="grid grid-cols-1 gap-8">
                 <div className="flex min-w-0 flex-col gap-3">
-                    <FormFile
+                    <LogoPicker
                         name="details.invoiceLogo"
                         label={_t(
                             "form.steps.invoiceDetails.invoiceLogo.label"
                         )}
                         placeholder={_t(
                             "form.steps.invoiceDetails.invoiceLogo.placeholder"
+                        )}
+                        hint={_t(
+                            "form.steps.invoiceDetails.invoiceLogo.hint"
+                        )}
+                        uploadTileLabel={_t(
+                            "form.steps.invoiceDetails.invoiceLogo.uploadTile"
+                        )}
+                        removeLabel={_t(
+                            "form.steps.invoiceDetails.invoiceLogo.remove"
                         )}
                     />
 

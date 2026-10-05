@@ -33,7 +33,10 @@
         "heading": "Fakturadetaljar",
         "invoiceLogo": {
           "label": "Fakturalogo",
-          "placeholder": "Klikk for å laste opp bilete"
+          "placeholder": "Klikk for å laste opp bilete",
+          "hint": "Vel ei Rooftrans-logo eller last opp di eiga.",
+          "uploadTile": "Last opp di eiga",
+          "remove": "Fjern logo"
         },
         "invoiceNumber": "Fakturanummer",
         "issuedDate": "Utferdingsdato",
@@ -134,7 +137,7 @@
     "signatureAlt": "Signatur til {name}"
   },
   "meta": {
-    "title": "Gratis fakturagenerator | Invoify",
+    "title": "Gratis fakturagenerator | Rooftrans",
     "description": "Lag ein profesjonell faktura på minutt. Tretten malar, eigne fargar og logo, og ein PDF du kan lasta ned eller senda på e-post. Gratis, utan konto.",
     "ogTitle": "Gratis fakturagenerator",
     "ogDescription": "Tretten malar. Fyll ut, last ned PDF-en. Ingen konto."
